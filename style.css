@@ -29,6 +29,13 @@ ul{
     color: #ffffff;
 }
 
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin: 10px 0 10px 0;
+}
+
 /*Header*/
 header{
     background: #35424a;
@@ -128,6 +135,19 @@ header a:hover{
 
 #boxes .box img{
     width: 90px;
+}
+
+/*Sidebar*/
+aside#sidebar{ /*no space between the id name and tag (or else it won't work)*/
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
 }
 
 footer{
